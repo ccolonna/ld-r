@@ -26,11 +26,12 @@ jobs:
           HD_CONFIG_SPARQL_ENDPOINT_TYPE: virtuoso
           HD_CONFIG_SPARQL_ENDPOINT_PROTOCOL: https
           HD_CONFIG_GRAPH: http://odpreactor.arco.istc.cnr.it/configuration
-          HD_ODP_REACTOR_GRAPH_HOST: https://odp-reactor-browser.vercel.app
+          HD_ODP_REACTOR_GRAPH_HOST: odp-reactor-browser.vercel.app
           HD_ODP_REACTOR_GRAPH_PORT: 443
           HD_TEST_SPARQL_ENDPOINT_URI: https://arco.istc.cnr.it/odpr/sparql
-          HD_HOST: https://odp-reactor-ldr.herokuapp.com/
+          HD_HOST: odp-reactor-ldr.herokuapp.com
           PORT: 443
+          HD_PORT: 443
           HD_ALLOWED_ORIGINS: https://odp-reactor-ldr.herokuapp.com,https://odp-reactor-browser.vercel.app
           ALLOWED_ORIGINS: https://odp-reactor-ldr.herokuapp.com,https://odp-reactor-browser.vercel.app
 
